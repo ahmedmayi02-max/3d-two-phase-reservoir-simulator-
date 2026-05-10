@@ -34,3 +34,10 @@ See `requirements.txt`.
 ## Repository Status
 
 This repository contains research code for an academic reservoir simulation project.
+## Run Drawdown and Buildup Test
+
+```bash
+python examples/run_welltest_drawdown_buildup.py
+```
+
+This script runs a 72-hour drawdown followed by a 55-hour shut-in buildup test and exports the pressure data to an Excel file.
